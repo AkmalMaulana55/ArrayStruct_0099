@@ -10,5 +10,9 @@ string nama[3];
 
 int main(){
     cout << "Skor ke 3 = " << skor[2] << endl;
+    //mengisi array pada lokasi/index tertentu
+    skor[2] = 25;
+    cout << "Skor ke 3 = " << skor[2] << endl;
+
     
 }
